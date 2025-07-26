@@ -1,0 +1,69 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+button,
+a.button {
+  display: inline-block;
+  background: #1e3a8a;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover,
+a.button:hover {
+  background: #0d2c6b;
+}
+
+/* Status Message */
+.status {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  padding: 10px;
+  background: #f0f4ff;
+  border: 1px solid #d0d9ff;
+  border-radius: 8px;
+}
