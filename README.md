@@ -41,15 +41,15 @@ This project includes:
 | Electron Desktop |
 |  (Clock-in/out)  |
 +------------------+
-
+```
 
 Flow:
-   Employees are added via API → Get onboarding email → Activate via Web App
-   Employees download & login via Electron App → Clock in/out, time logs captured
-   API stores employees, projects, and time logs in MySQL
+  - Employees are added via API → Get onboarding email → Activate via Web App
+  - Employees download & login via Electron App → Clock in/out, time logs captured
+  - API stores employees, projects, and time logs in MySQL
 
 ## Project Structure
-
+```
 T3-Project/
 │
 ├── backend/
@@ -77,7 +77,7 @@ T3-Project/
 │   └── rendererDashboard.js
 │
 └── README.md
-
+```
 ## System Design & Trade-offs
 
 - **Backend-first**: Built API-first to allow web & desktop apps to share the same endpoints.  
