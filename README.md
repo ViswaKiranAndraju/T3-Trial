@@ -78,3 +78,18 @@ T3-Project/
 │
 └── README.md
 
+## System Design & Trade-offs
+
+- **Backend-first**: Built API-first to allow web & desktop apps to share the same endpoints.  
+- **MySQL with Sequelize**: Relational DB allows easy reporting & ensures data integrity.  
+- **Electron for Desktop App**: Cross-platform support (can extend later for Windows, macOS, Linux).  
+- **Security**: Placeholder for future JWT authentication & role-based access control.  
+- **Screenshots & Permissions**: Deferred for minimal viable product; can be integrated later using native Electron APIs.  
+
+## Next Steps
+
+- Implement **screenshot capture** in the Electron app.  
+- Add **IP & MAC tracking** for fraud prevention.  
+- Improve **UI design** for web and desktop apps.  
+- Add **JWT authentication** for enhanced security.  
+- Build **admin panel** for HR/project managers.  
